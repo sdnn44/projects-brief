@@ -2,13 +2,15 @@ import React from 'react'
 import { Canvas } from '@react-three/fiber';
 import Model from '../Model/Model';
 
-type Props = {}
+interface SceneProps {
+    activeMenu: number | null;
+}
 
-export default function Scene({ }: Props) {
+export default function Scene({ activeMenu }: SceneProps) {
     return (
-        <div className='relative h-screen'>
+        <div className='fixed top-0 w-full h-screen'>
             <Canvas>
-                <Model />
+                <Model activeMenu={activeMenu} />
             </Canvas>
         </div>
     )

@@ -1,23 +1,23 @@
 export const projects = [
     {
       title: "cs-archive",
-      src: "/images/cs-archive.jpg"
+      src: "/images/1.png"
     },
     {
       title: "dd2-admin-summary",
-      src: "/images/dd2.jpg"
+      src: "/images/2.png"
     },
     {
       title: "codmod-admin-summary",
-      src: "/images/codmod.jpg"
+      src: "/images/1.png"
     },
     {
       title: "twitchify",
-      src: "/images/twitchify.jpg"
+      src: "/images/2.png"
     },
     {
       title: "messageme",
-      src: "/images/messageme.jpg"
+      src: "/images/1.png"
     },
 
 ];
