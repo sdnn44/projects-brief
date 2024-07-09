@@ -13,6 +13,21 @@ body {
   /* background-color: rgb(255,255,255); */
 }
 
+body::-webkit-scrollbar, .scrollbar-style::-webkit-scrollbar, .sidebar-list::-webkit-scrollbar {
+  width: 7px;
+  height: 5px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #0F1117;
+}
+
+body::-webkit-scrollbar-thumb, .scrollbar-style::-webkit-scrollbar-thumb, .sidebar-list::-webkit-scrollbar-thumb {
+  background-color: rgb(234, 179, 8) ;
+  border-radius: 0px;
+  border: 3px none #ffffff;
+}
+
 .text-font {
     font-family: 'Regular';
 }
