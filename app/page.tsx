@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 import Scene from "./components/Scene/Scene";
 import Lenis from 'lenis';
 import Projects from "./components/Projects/Projects";
-import { MenuType } from "./types/menuType";
 
 export default function Home() {
 
@@ -20,10 +19,11 @@ export default function Home() {
 
   return (
     <main>
-      <div className="h-[50vh]"></div>
-      <Projects setActiveMenu={setActiveMenu} />
       <Scene activeMenu={activeMenu} />
       <div className="h-[50vh]"></div>
+      <Projects setActiveMenu={setActiveMenu} />
+      <div className="h-[50vh]"></div>
+      <p className="text-right p-4 text-[10px] text-yellow-500">Source: https://blog.olivierlarose.com/tutorials/mouse-image-distortion</p>
     </main>
   );
 }
