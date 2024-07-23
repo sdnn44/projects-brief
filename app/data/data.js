@@ -24,5 +24,9 @@ export const projects = [
       src: "/images/5.png",
       link: "https://messagemenow.vercel.app/"
     },
-
+    {
+      title: "chatbox-tracker",
+      src: "/images/6.png",
+      link: "https://chatbox-tracker.vercel.app/"
+    },
 ];
